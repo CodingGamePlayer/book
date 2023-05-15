@@ -1,13 +1,10 @@
 package com.jojoldu.book.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Getter
-@Builder
+@RequiredArgsConstructor
 public class HelloResponseDto {
-    private String name;
-    private int amount;
+    private final String name;
+    private final int amount;
 }
