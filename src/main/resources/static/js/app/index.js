@@ -1,5 +1,4 @@
 const save = document.getElementById('btn-save');
-console.log('update 준비');
 
 const saveMethod = () => {
     save.addEventListener('click', () => {
@@ -34,4 +33,4 @@ const saveMethod = () => {
     })
 };
 
-// saveMethod();
+saveMethod();
