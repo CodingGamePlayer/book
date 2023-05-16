@@ -1,4 +1,4 @@
-package com.jojoldu.book.posts;
+package com.jojoldu.book.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
