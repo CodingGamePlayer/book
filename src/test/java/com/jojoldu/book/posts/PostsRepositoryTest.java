@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @Transactional
@@ -18,7 +18,6 @@ class PostsRepositoryTest {
 
     @Autowired
     PostsRepository postsRepository;
-
 
     @Test
     void 게시글저장_불러오기() {
